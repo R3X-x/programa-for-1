@@ -1,24 +1,21 @@
 let nPisosBase = Number(prompt("Ingrese el número de pisos base que quiere"))
 let nPisos = Number(prompt("Ingrese el número de pisos que quiere"))
-function piso {
+function piso() {
     console.log("|  _     _  |")
     console.log("| |_|   |_| |")
     console.log("|___________|")
 }
-function pisoBase {
+function pisoBase() {
     console.log("|  _     _  |")
     console.log("| |_| _ |_| |")
     console.log("|____|_|____|")
 }
-function techo {
+function techo() {
     console.log("_____________")
 }
-function base (nPisosBase){
-    for(let i=0;i<3;i++)
-}
 function casa (nPisos){
-    for(let i=0;i<3;i++)
-    techo(ancho)
-    piso(ancho)
-    pisoBase(ancho)
+    //for(let i=0;i<3;i++)
+    techo()
+    piso()
+    pisoBase()
 }
