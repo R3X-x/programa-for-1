@@ -14,9 +14,10 @@ function techo() {
     console.log("_____________")
 }
 function casa (nPisos){
- for(let i=0;i<3;i++)
     techo()
+    for(let i=0;i<nPisos;i++){
     piso()
+    }
     pisoBase()
 }
 casa(nPisos)
