@@ -20,4 +20,3 @@ function casa(nPisos){
     }
     pisoBase()
 }
-casa()
